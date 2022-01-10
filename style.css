@@ -1,0 +1,187 @@
+*		{
+	margin: 0px;
+	padding: 0px;
+}
+
+body	{
+	font-family: robo, arial;
+	background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6	{
+	color: #11999e;
+}
+
+label, a	{
+	text-decoration: none;
+	color: teal;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+label		{
+	display: block;
+}
+
+a:hover		{
+	text-decoration: underline;
+	color: tomato;
+}
+
+.div-clear	{
+	clear: both;
+}
+
+hr			{
+	width: 100%;
+	margin: 20px auto;
+}
+.hr1			{
+	border: 3px solid black;
+	border-bottom: none;
+	width: 100%;
+	margin: 20px auto;
+}
+
+
+/* Container CSS Start*/
+.container	{
+	background: #bcfff0;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+/* Container CSS End*/
+
+
+/* Hearder CSS Start*/
+header	{
+	
+}
+
+header .profile-pic	{
+	width: 100px;
+	border: 3px solid white;
+	border-radius: 50%;
+	float: left;
+}
+
+header .short-title	{
+	float: left;
+	padding: 30px;
+}
+
+header .contact		{
+	float: right;
+	padding: 30px;
+}
+
+.cont2		{
+	width: 300px;
+}
+
+.a1			{
+	float: left;
+	padding-right: 10px;
+}
+
+.a2		{
+	margin-left: 5px;
+}
+
+.s1			{
+	float: left;
+	padding-right: 37px;
+}
+
+.s2			{
+	float: left;
+	padding-right: 51px;
+}
+/* Hearder CSS End*/
+
+
+/* Main CSS Start*/
+.left	{
+	float: left;
+	width: 30%;
+}
+
+.right	{
+	float: left;
+	width: 70%;
+}
+
+.personal-li	{
+	list-style-type: none;
+	margin-bottom: 3px;
+}
+
+.li1		{
+	padding-right: 29px;
+}
+
+.li2		{
+	padding-right: 35px;
+}
+
+.li3		{
+	padding-right: 15px;
+}
+
+.experi1 p, .experi2 p, .experi3 p	{
+	text-align: justify;
+	margin: 10px 0;
+}
+
+.for-sp		{
+	margin-top: 20px;
+}
+
+.for-sp1, .for-sp	{
+	margin-bottom: 5px;
+}
+
+.lright	{
+	width: 55%;
+	float: left;
+}
+
+.rright	{
+	width: 45%;
+	float: right;
+}
+
+.for-sp2	{
+	margin-bottom: 10px;
+}
+
+.for-sp3	{
+	margin-bottom: 5px;
+}
+/* Main CSS End*/
+
+
+/* Footer CSS Start*/
+footer		{
+	background-color: purple;
+	text-align: center;
+	padding: 10px; auto;
+}
+
+.foot li	{
+	list-style-type: none;
+	display: inline;
+}
+
+.foot li a	{
+	color: white;
+	margin: 0 20px;
+}
+
+.footc		{
+	font-weight: bold;
+	margin-top: 20px;
+	color: white;
+}
+/* Footer CSS End*/
